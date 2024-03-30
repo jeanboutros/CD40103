@@ -88,11 +88,11 @@ For example, to pre-load the counter with a decimal value of 10 (binary equivale
 
 ## Code
 
-The `CD40103_DownCounter.ino` file contains the Arduino code for this project. You can find detailed comments within the code explaining each section.
+The `CD40103.ino` file contains the Arduino code for this project. You can find detailed comments within the code explaining each section.
 
 ## Usage
 
-1. Download the `CD40103_DownCounter.ino` file and upload it to your Arduino board using the Arduino IDE.
+1. Download the `CD40103.ino` file and upload it to your Arduino board using the Arduino IDE.
 2. Open the serial monitor in the Arduino IDE (Tools -> Serial Monitor).
 3. Observe the LED and the serial monitor output to see the counter functionality. The LED will turn ON when the CO/ZD pin is LOW (counter reaches zero) and vice versa. The serial monitor will print the current clock cycle and the CO/ZD state.
 
